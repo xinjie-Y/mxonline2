@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d652cd1-a764-4e27-82c4-78bdbc9406f2" name="Default" comment="model设计完成">
-      <change afterPath="$PROJECT_DIR$/organization/models.py" afterDir="false" />
+    <list default="true" id="7d652cd1-a764-4e27-82c4-78bdbc9406f2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/mxonline3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mxonline3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mxonline3/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mxonline3/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operation/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/organization/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/0002_banner_emailverifyrecord.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,17 +48,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mxonline3/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#310#319#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users/models.py">
+        <entry file="file://$PROJECT_DIR$/apps/users/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
@@ -36,7 +70,7 @@
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/courses/models.py">
+        <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="627">
               <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -47,20 +81,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/organization/models.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            <state relative-caret-position="-370">
+              <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/operation/models.py">
+        <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+            <state relative-caret-position="741">
+              <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -80,17 +114,22 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="xinjie &lt;2314388662@qq.com&gt;" />
+      </list>
+    </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mxonline3/settings.py" />
         <option value="$PROJECT_DIR$/users/models.py" />
         <option value="$PROJECT_DIR$/courses/models.py" />
         <option value="$PROJECT_DIR$/organization/models.py" />
         <option value="$PROJECT_DIR$/operation/models.py" />
+        <option value="$PROJECT_DIR$/mxonline3/settings.py" />
       </list>
     </option>
   </component>
@@ -104,8 +143,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="842" />
-    <option name="y" value="51" />
+    <option name="x" value="841" />
+    <option name="y" value="50" />
     <option name="width" value="980" />
     <option name="height" value="1090" />
   </component>
@@ -126,7 +165,7 @@
             <path>
               <item name="mxonline3" type="b2602c69:ProjectViewProjectNode" />
               <item name="mxonline3" type="462c0819:PsiDirectoryNode" />
-              <item name="organization" type="462c0819:PsiDirectoryNode" />
+              <item name="mxonline3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -215,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1525617390566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="model设计完成">
+      <created>1525617867369</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1525617867369</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -223,13 +269,13 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" visible="true" weight="0.32797858" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.32797858" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" visible="true" weight="0.32797858" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49865952" weight="0.3266399" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32931727" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27949062" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28351206" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -240,9 +286,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="manage.py@mxonline3" order="8" weight="0.3266399" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="manage.py@mxonline3" order="8" weight="0.3266399" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -262,17 +308,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -282,7 +331,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/organization/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mxonline3/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding>
+            <element signature="e#633#665#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mxonline3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
@@ -299,7 +396,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/operation/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="83" column="31" selection-start-line="83" selection-start-column="31" selection-end-line="83" selection-end-column="31" />
@@ -391,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mxonline3/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mxonline3/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -408,14 +498,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/users/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/courses/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
@@ -425,20 +515,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/operation/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="44" column="60" lean-forward="true" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
+        <state relative-caret-position="741">
+          <caret line="44" column="60" selection-start-line="44" selection-start-column="60" selection-end-line="44" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/organization/models.py">
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="-370">
+          <caret line="9" column="62" lean-forward="true" selection-start-line="9" selection-start-column="62" selection-end-line="9" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mxonline3/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#310#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
