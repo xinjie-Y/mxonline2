@@ -61,9 +61,13 @@ class EmailVerifyRecord(models.Model):
         verbose_name = "邮箱验证码"
         verbose_name_plural = verbose_name
 
+
+    # 重载Unicode方法使后台不再直接显示object
+    def __str__(self):
+        return '{0}({1})'.format(self.code,self.email)
+
+
 # 轮播图model
-
-
 class Banner(models.Model):
     title = models.CharField(max_length=100, verbose_name=u"标题")
     image = models.ImageField(
