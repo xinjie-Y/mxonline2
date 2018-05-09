@@ -6,7 +6,8 @@ from django.contrib.auth.backends import ModelBackend
 from django.db.models import Q
 # 基于类实现需要继承的view
 from django.views.generic.base import View
-from .forms import LoginForm
+from .forms import LoginForm,RegisterForm
+from django.contrib.auth.hashers import make_password
 
 # 实现用户名邮箱均可登录
 # 继承ModelBackend类，因为它有方法authenticate，可点进源码查看
@@ -62,3 +63,29 @@ class LoginView(View):
             return render(
                 request, "login.html", {
                     "login_form": login_form})
+
+
+# 注册功能的view
+class RegisterView(View):
+    # get方法直接返回页面
+    def get(self, request):
+        # 添加验证码
+        register_form = RegisterForm()
+        return render(request, "register.html", {'register_form':register_form})
+
+    def post(self, request):
+        # 实例化form
+        register_form = RegisterForm(request.POST)
+        if register_form.is_valid():
+            user_name = request.POST.get("email", "")
+            pass_word = request.POST.get("password", "")
+
+            # 实例化一个user_profile对象，将前台值存入
+            user_profile = UserProfile()
+            user_profile.username = user_name
+            user_profile.email = user_name
+
+            # 加密password进行保存
+            user_profile.password = make_password(pass_word)
+            user_profile.save()
+            pass

@@ -16,6 +16,15 @@ AUTHENTICATION_BACKENDS = (
     'users.views.CustomBackend',
 )
 
+# 发送邮件的setting设置
+
+EMAIL_HOST = "smtp.qq.com"
+EMAIL_PORT = 25
+EMAIL_HOST_USER = "2314388662@qq.com"
+EMAIL_HOST_PASSWORD = " "
+EMAIL_USE_TLS= True
+EMAIL_FROM = "2314388662@qq.com"
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0,os.path.join(BASE_DIR,'apps'))
